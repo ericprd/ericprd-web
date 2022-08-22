@@ -4,6 +4,12 @@
 
 This repo is my personal website source.
 
+## Design
+
+FIGMA design: https://www.figma.com/file/EqaeSdUAHI29SOIAD0aJvE/ericprd.site
+
+## Clone Project
+
 The main file of this repo is `index.html` on root repo.
 If you want to clone this repo, you can type the commands below on terminal.
 
