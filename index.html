@@ -10,30 +10,180 @@
   <body>
     <nav>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="./pages/about">About</a></li>
-        <li><a href="./pages/projects">Projects</a></li>
-        <li><a href="./pages/contact">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <main>
-      <section>
+      <section id="#">
         <img src="./assets/ericprd-half.png" alt="Eric Pradana's picture" />
+
+        <div class="text-container">
+          <h1>Hello There!</h1>
+          <h2>I am Eric</h2>
+
+          <p>
+            I'm software engineer specializing in building web. Currently, i'm
+            focused on Backend development and studying Frontend technologies
+            such as ReactJs and Tailwindcss.
+          </p>
+        </div>
       </section>
 
-      <section>
+      <section id="about">
         <header>
-          <h1>Hello There!</h1>
-          <h2>I am Eric Pradana</h2>
+          <img src="./assets/about-section.png" alt="About section" />
         </header>
 
-        <article>
-          I'm software engineer specializing in building web. Currently, i'm
-          focused on Backend development and studying Frontend technologies such
-          as ReactJs and Tailwindcss.
-        </article>
+        <div class="text-container">
+          <p>
+            Hello! My name is Eric Pradana, i like to create something from
+            scratch. I'm mostly creating an API for web apps but recently i'm
+            studying Frontend technologies to develop the user interface for my
+            web apps.
+          </p>
+
+          <p>
+            The first time i know computers was when there was a lesson about
+            blogs and the teacher gave the students a task to create a blog site
+            and they teach us how to use computers. Since then i have loved how
+            computers work.
+          </p>
+
+          <div class="skills-set">
+            <p>My skills set:</p>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript(ES6+)</li>
+              <li>ReactJs</li>
+              <li>expressjs</li>
+              <li>Node.js</li>
+              <li>Tailwindcss</li>
+              <li>SASS</li>
+            </ul>
+          </div>
+        </div>
+
+        <img
+          src="../../assets/ericprd-potrait.jpg"
+          alt="Eric Pradana's picture"
+          width="200px"
+        />
+      </section>
+
+      <section id="projects">
+        <header>
+          <img src="./assets/projects-section.png" alt="Projects section" />
+        </header>
+
+        <div class="project-container">
+          <h1>A01 Projects</h1>
+          <p>
+            This website is a team project to apply what has been learned during
+            the Bootcamp organized by Lukananakit x Progate. In this project, my
+            task is to create a basic layout using HTML and CSS. I also use
+            JavaScript for the animation section and I also fixed some bugs and
+            implemented responsiveness so that it can be accessed by devices
+            that have limited screens.
+          </p>
+          <nav>
+            <a href="https://github.com/ericprd/progate.git" target="_blank"
+              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
+            /></a>
+            <a href="https://a01progate.github.io/" target="_blank"
+              ><img
+                src="./assets/right-arrow.svg"
+                alt="right arrow"
+                width="32px"
+            /></a>
+          </nav>
+        </div>
+
+        <div class="project-container">
+          <h1>A11 Projects</h1>
+          <p>
+            This website is a team project to apply what has been learned during
+            the Bootcamp organized by Lukananakit x Progate. In this project, my
+            task is to create a basic layout using HTML and CSS. I also use
+            JavaScript for the animation section and I also fixed some bugs and
+            implemented responsiveness so that it can be accessed by devices
+            that have limited screens.
+          </p>
+          <nav>
+            <a href="https://github.com/a11-progate/project" target="_blank"
+              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
+            /></a>
+            <a href="https://a11-progate.github.io/project" target="_blank"
+              ><img
+                src="./assets/right-arrow.svg"
+                alt="right arrow"
+                width="32px"
+            /></a>
+          </nav>
+        </div>
+
+        <div class="project-container">
+          <h1>Hatchery App</h1>
+          <p>
+            This web app builds with ReactJs. I implement how to use hooks and
+            pass data between parents and children.
+          </p>
+          <nav>
+            <a href="https://github.com/ericprd/hacthery-app" target="_blank"
+              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
+            /></a>
+            <a href="https://hatchery-app.netlify.app/" target="_blank"
+              ><img
+                src="./assets/right-arrow.svg"
+                alt="right arrow"
+                width="32px"
+            /></a>
+          </nav>
+        </div>
+
+        <div class="project-container">
+          <h1>Venue Activity</h1>
+          <p>
+            This project is restAPI that i build with NodeJs and framework
+            AdonisJs and for the main language i use TypeScript.
+          </p>
+          <nav>
+            <a
+              href="https://jcc-final-project-batch-2.herokuapp.com/"
+              target="_blank"
+              ><img
+                src="./assets/right-arrow.svg"
+                alt="right arrow"
+                width="32px"
+            /></a>
+          </nav>
+        </div>
+      </section>
+
+      <section id="contact">
+        <header>
+          <img src="./assets/contact-section.png" alt="Contact section" />
+        </header>
+
+        <form>
+          <input type="text" name="email" id="email" placeholder="Email" />
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="message"
+          />
+          <input type="submit" value="Say Hi!" />
+        </form>
       </section>
     </main>
+    <footer>
+      <p>Created by Eric Pradana</p>
+      <p>&copy;2022</p>
+    </footer>
   </body>
 </html>
