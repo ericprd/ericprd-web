@@ -10,7 +10,7 @@
   <body>
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -18,58 +18,57 @@
     </nav>
 
     <main>
-      <section id="#">
-        <img src="./assets/ericprd-half.png" alt="Eric Pradana's picture" />
+      <section id="intro">
+        <img src="/assets/ericprd-half.png" alt="Eric Pradana's picture" />
 
-        <div class="text-container">
+        <article class="text-container">
           <h1>Hello There!</h1>
           <h2>I am Eric</h2>
-
           <p>
             I'm software engineer specializing in building web. Currently, i'm
             focused on Backend development and studying Frontend technologies
-            such as ReactJs and Tailwindcss.
+            such as React and Tailwind CSS.
           </p>
-        </div>
+        </article>
       </section>
 
       <section id="about">
         <header>
-          <img src="./assets/about-section.png" alt="About section" />
+          <img src="/assets/about-section.png" alt="About section" />
         </header>
 
         <div class="text-container">
           <p>
-            Hello! My name is Eric Pradana, i like to create something from
+            Hello! My name is Eric Pradana, I like to create something from
             scratch. I'm mostly creating an API for web apps but recently i'm
             studying Frontend technologies to develop the user interface for my
             web apps.
           </p>
 
           <p>
-            The first time i know computers was when there was a lesson about
+            The first time I know computers was when there was a lesson about
             blogs and the teacher gave the students a task to create a blog site
-            and they teach us how to use computers. Since then i have loved how
+            and they teach us how to use computers. Since then I have loved how
             computers work.
           </p>
 
           <div class="skills-set">
-            <p>My skills set:</p>
+            <p>My skill set:</p>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
-              <li>JavaScript(ES6+)</li>
-              <li>ReactJs</li>
-              <li>expressjs</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+              <li>Express.js</li>
               <li>Node.js</li>
-              <li>Tailwindcss</li>
-              <li>SASS</li>
+              <li>Tailwind CSS</li>
+              <li>Sass</li>
             </ul>
           </div>
         </div>
 
         <img
-          src="../../assets/ericprd-potrait.jpg"
+          src="/assets/ericprd-potrait.jpg"
           alt="Eric Pradana's picture"
           width="200px"
         />
@@ -91,15 +90,16 @@
             that have limited screens.
           </p>
           <nav>
-            <a href="https://github.com/ericprd/progate.git" target="_blank"
-              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
-            /></a>
-            <a href="https://a01progate.github.io/" target="_blank"
-              ><img
+            <a href="https://github.com/ericprd/progate.git" target="_blank">
+              <img src="./assets/github-icon.png" alt="GitHub icon" />
+            </a>
+            <a href="https://a01progate.github.io/" target="_blank">
+              <img
                 src="./assets/right-arrow.svg"
                 alt="right arrow"
                 width="32px"
-            /></a>
+              />
+            </a>
           </nav>
         </div>
 
@@ -115,7 +115,7 @@
           </p>
           <nav>
             <a href="https://github.com/a11-progate/project" target="_blank"
-              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
+              ><img src="./assets/github-icon.png" alt="GitHub icon"
             /></a>
             <a href="https://a11-progate.github.io/project" target="_blank"
               ><img
@@ -129,12 +129,12 @@
         <div class="project-container">
           <h1>Hatchery App</h1>
           <p>
-            This web app builds with ReactJs. I implement how to use hooks and
+            This web app builds with React. I implement how to use hooks and
             pass data between parents and children.
           </p>
           <nav>
             <a href="https://github.com/ericprd/hacthery-app" target="_blank"
-              ><img src="./assets/GitHub-Mark-32px.png" alt="GitHub icon"
+              ><img src="./assets/github-icon.png" alt="GitHub icon"
             /></a>
             <a href="https://hatchery-app.netlify.app/" target="_blank"
               ><img
@@ -148,10 +148,10 @@
         <div class="project-container">
           <h1>Venue Activity</h1>
           <p>
-            This project is restAPI that i build with NodeJs and framework
-            AdonisJs and for the main language i use TypeScript.
+            This project is REST API that i build with Node.js and framework
+            AdonisJS and for the main language I use TypeScript.
           </p>
-          <nav>
+          <div>
             <a
               href="https://jcc-final-project-batch-2.herokuapp.com/"
               target="_blank"
@@ -160,13 +160,14 @@
                 alt="right arrow"
                 width="32px"
             /></a>
-          </nav>
+          </div>
         </div>
       </section>
 
       <section id="contact">
         <header>
           <img src="./assets/contact-section.png" alt="Contact section" />
+          <h1>Contact</h1>
         </header>
 
         <form>
@@ -181,6 +182,7 @@
         </form>
       </section>
     </main>
+
     <footer>
       <p>Created by Eric Pradana</p>
       <p>&copy;2022</p>
