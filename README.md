@@ -4,6 +4,10 @@
 
 This repo is my personal website source.
 
+## Live
+
+Live url: https://ericprd-web.vercel.app/
+
 ## Design
 
 Figma design: https://www.figma.com/file/EqaeSdUAHI29SOIAD0aJvE/ericprd.site
