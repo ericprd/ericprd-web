@@ -42,8 +42,8 @@ body {
   color: #333;
 }
 
-.intro {
-  width: 75%;
+.intro-container {
+  max-width: 75%;
   margin: 100px auto 50px auto;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@ body {
 }
 
 .text-container {
-  width: 50%;
+  max-width: 50%;
 }
 
 .text-container .heading-1 {
