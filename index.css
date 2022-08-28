@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 }
 
 .navbar {
-  background-color: aqua;
+  background-color: #dcd7d9;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -33,4 +34,29 @@ body {
 .link {
   text-decoration: none;
   color: #333;
+}
+
+.intro {
+  width: 75%;
+  margin: 100px auto 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.intro img {
+  width: 350px;
+  height: 350px;
+  align-self: center;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.text-container .heading-1{
+    font-size: 50px;
+}
+.text-container .heading-2{
+    font-size: 30px;
 }
