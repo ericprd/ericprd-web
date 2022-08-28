@@ -1,3 +1,7 @@
+:root {
+  --main-color: #180a0a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,7 @@
 }
 
 body {
-  background-color: #180a0a;
+  background-color: var(--main-color);
   color: aliceblue;
 }
 
@@ -22,6 +26,7 @@ body {
   top: 0;
   right: 0;
   border-bottom-left-radius: 50px;
+  z-index: 9999;
 }
 
 .navbar .list {
@@ -51,12 +56,36 @@ body {
 }
 
 .text-container {
-    width: 50%;
+  width: 50%;
 }
 
-.text-container .heading-1{
-    font-size: 50px;
+.text-container .heading-1 {
+  font-size: 50px;
 }
-.text-container .heading-2{
-    font-size: 30px;
+.text-container .heading-2 {
+  font-size: 30px;
+}
+.section-header {
+  position: relative;
+}
+.section-title {
+  background-image: url("/assets/section-background.svg");
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 225px;
+  font-size: 24px;
+  text-align: center;
+  background-position: center;
+  margin: auto;
+  padding-top: 5px;
+  position: relative;
+  z-index: 99;
+  background-color: var(--main-color);
+}
+.section-header .line {
+  border-bottom: 3px dotted #333;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
 }
