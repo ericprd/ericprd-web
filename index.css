@@ -50,6 +50,7 @@ body {
   align-items: center;
   gap: 100px;
 }
+
 .intro img {
   width: 350px;
   height: 350px;
@@ -63,12 +64,15 @@ body {
 .text-container .heading-1 {
   font-size: 50px;
 }
+
 .text-container .heading-2 {
   font-size: 30px;
 }
+
 .section-header {
   position: relative;
 }
+
 .section-title {
   background-color: var(--main-color);
   background-image: url("/assets/section-background.svg");
@@ -83,6 +87,7 @@ body {
   position: relative;
   z-index: 99;
 }
+
 .section-header .line {
   border-bottom: 3px dotted #333;
   position: absolute;
