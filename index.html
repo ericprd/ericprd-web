@@ -10,7 +10,7 @@
 
   <body>
     <nav class="navbar">
-      <ul class="list">
+      <ul class="list-container">
         <li class="list-item"><a href="#intro">Home</a></li>
         <li class="list-item"><a href="#about">About</a></li>
         <li class="list-item"><a href="#projects">Projects</a></li>
@@ -39,41 +39,45 @@
           <div class="line"></div>
         </header>
 
-        <div class="text-container">
-          <p>
-            Hello! My name is Eric Pradana, I like to create something from
-            scratch. I'm mostly creating an API for web apps but recently I'm
-            studying Frontend technologies to develop the user interface for my
-            web apps.
-          </p>
+        <div class="content">
+          <div class="text-container">
+            <p class="content-paragraph">
+              Hello! My name is Eric Pradana, I like to create something from
+              scratch. I'm mostly creating an API for web apps but recently I'm
+              studying Frontend technologies to develop the user interface for
+              my web apps.
+            </p>
 
-          <p>
-            The first time I know computers was when there was a lesson about
-            blogs and the teacher gave the students a task to create a blog site
-            and they teach us how to use computers. Since then I have loved how
-            computers work.
-          </p>
+            <p class="content-paragraph">
+              The first time I know computers was when there was a lesson about
+              blogs and the teacher gave the students a task to create a blog
+              site and they teach us how to use computers. Since then I have
+              loved how computers work.
+            </p>
 
-          <div class="skills-set">
-            <p>My skill set:</p>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript (ES6+)</li>
-              <li>React</li>
-              <li>Express.js</li>
-              <li>Node.js</li>
-              <li>Tailwind CSS</li>
-              <li>Sass</li>
-            </ul>
+            <div class="skill-set">
+              <p class="skill-set-text">My skill set:</p>
+              <ul class="list-container">
+                <div class="list-item-container">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>JavaScript (ES6+)</li>
+                </div>
+                <div class="list-item-container">
+                  <li>React</li>
+                  <li>Express.js</li>
+                  <li>Node.js</li>
+                </div>
+                <div class="list-item-container">
+                  <li>Tailwind CSS</li>
+                  <li>Sass</li>
+                </div>
+              </ul>
+            </div>
           </div>
-        </div>
 
-        <img
-          src="/assets/ericprd-potrait.jpg"
-          alt="Eric Pradana's picture"
-          width="200"
-        />
+          <img src="/assets/ericprd-potrait.jpg" alt="Eric Pradana's picture" />
+        </div>
       </section>
 
       <section id="projects">
