@@ -81,8 +81,13 @@ p {
 .navbar .list-item {
   transition: 0.4s all;
 }
+
 .navbar .list-item:hover {
   transform: scale(1.2);
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .intro-container {
@@ -210,13 +215,10 @@ p {
   overflow-y: hidden;
   text-align: start;
   padding: 0 2px;
-  /* word-spacing: 0.25rem;
-  letter-spacing: .15rem; */
 }
 
 .project-description:hover {
   overflow-y: auto;
-  /* padding-right: 1px; */
 }
 
 .hyperlink-container {

@@ -30,6 +30,19 @@
     display: none;
   }
 
+  .mobile-nav {
+    display: block;
+    position: fixed;
+    z-index: 5;
+    right: 1.3rem;
+    bottom: 5rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: rgba(255, 120, 111, .7);
+    border: 3px solid rgba(255, 255, 255, .7);
+    border-radius: 50%;
+  }
+
   .intro-container img {
     display: none;
   }
@@ -69,6 +82,14 @@
   .skill-set .list-container {
     flex-direction: column;
     gap: 0;
+  }
+
+  .project-title {
+    font-size: 1.3rem;
+  }
+
+  .project-description {
+    font-size: 0.9rem;
   }
 
   footer {
